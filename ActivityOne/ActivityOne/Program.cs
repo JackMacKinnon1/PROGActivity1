@@ -10,7 +10,9 @@ namespace ActivityOne
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Testing Things");
+            Console.WriteLine(TimeSpan.FromMilliseconds(1299630020));
+            Console.WriteLine(TimeSpan.FromMilliseconds(3603001));
+            Console.WriteLine(TimeSpan.FromMilliseconds(8157019263));
         }
     }
 }
